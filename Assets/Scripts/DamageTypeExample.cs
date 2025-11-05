@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class DamageTypeExample : MonoBehaviour
 {
-    [SerializeField]
     private enum DAMAGE_TYPE
     {
         SLASHING,

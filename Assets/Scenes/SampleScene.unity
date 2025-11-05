@@ -391,6 +391,9 @@ GameObject:
   - component: {fileID: 596900542}
   - component: {fileID: 596900541}
   - component: {fileID: 596900540}
+  - component: {fileID: 596900546}
+  - component: {fileID: 596900547}
+  - component: {fileID: 596900548}
   m_Layer: 0
   m_Name: ProvaEsercizi
   m_TagString: Untagged
@@ -410,7 +413,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e2ad5af6c8b404046bc05c8423d7dcb3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stato: 3
+  stato: 1
 --- !u!114 &596900541
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -418,7 +421,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 596900539}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8c3b7db97e8684c4680526e48e29dc43, type: 3}
   m_Name: 
@@ -480,6 +483,51 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &596900546
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 596900539}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e51c3507c550f0e4e99f547ff2388a74, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stato: 0
+--- !u!114 &596900547
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 596900539}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b529a0ef375e26d419563ef9d4308c21, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attackType: 1
+  resistance: 3
+  weakness: 4
+  baseDamage: 1
+--- !u!114 &596900548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 596900539}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca3aad5a31117a349af886002787ea55, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attackType: 1
+  resistance: 2
+  weakness: 1
+  baseDamage: 22
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0

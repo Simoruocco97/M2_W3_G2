@@ -5,7 +5,7 @@ using UnityEngine.AI;
 
 public class EnemySwitchBehaviour : MonoBehaviour
 {
-    [SerializeField] private enum STATE
+    private enum STATE
     {
         IDLE,
         AGGROED,
